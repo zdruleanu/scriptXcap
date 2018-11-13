@@ -276,12 +276,8 @@ format_body
 
 
 if [[ $Method = "GET" ]];then
-	echo "dam cu GET";
-	echo "metoda: "$Method;
 	curl -g -X $Method $Header --trace-ascii /dev/stdout;
 else
-	echo "dam cu PUT";
-	echo "metoda: "$Method;
 	curl -g -X $Method $Header -d "${Body}" --trace-ascii /dev/stdout;
 fi
 
