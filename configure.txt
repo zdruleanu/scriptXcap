@@ -1,0 +1,30 @@
+# Used to configure the scriptXcap.sh
+
+# IMS domain information
+
+ImsDomain="ims.mnc009.mcc262.3gppnetwork.org"
+
+# XCAP Server related information
+
+IP="127.0.0.1"
+Port="80"
+HostName="appv1.ts9mtasv003.vblock1.vfd2.de"
+
+# Communication Diversion rule names
+
+CallForwardingUnconditional="cfu"
+CallForwardingBusy="cfb"
+CallForwardingNoReply="cfnr"
+CallForwardingNotReachable="cfnrc"
+
+# Incomming Communication Barring rule names
+
+BarAllIncomingCalls="baic"
+BarAllIncomingCallsWhenRoaming="bicroam"
+
+# Outgoing Communication Barring rule names
+
+BarAllOutgoingCalls="baoc"
+BarOutgoingInternationalCalls="boic"
+BarOutgoingInternationalCallsExceptHome="boic-exhc"
+
