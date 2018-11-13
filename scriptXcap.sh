@@ -162,7 +162,7 @@ if [[ $# -ne 0 ]]; then
 	check_arguments $@
 	echo "Arguments OK"
 else
-	echo "No arguments provided. Switching to interractive mode"
+	echo "No arguments provided. Switching to interactive mode"
 	menu_mode
 fi
 
